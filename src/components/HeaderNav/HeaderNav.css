@@ -1,0 +1,14 @@
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-link {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header-link.active {
+    text-decoration: underline;
+}

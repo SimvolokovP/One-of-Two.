@@ -1,0 +1,29 @@
+.auth-actions {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.auth-actions div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    font-weight: 500;
+}
+
+.auth-actions__link {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.auth-actions__logout {
+    background-color: transparent;
+    padding: 0;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+}

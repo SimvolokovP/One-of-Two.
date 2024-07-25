@@ -1,0 +1,22 @@
+.page-chapter {
+    padding-top: 40px;
+    display: none;
+}
+
+.page-chapter__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.page-chapter__name {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .page-chapter {
+        display: block;
+    }
+}

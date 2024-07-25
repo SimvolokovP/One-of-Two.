@@ -1,0 +1,6 @@
+.btn {
+    background-color: var(--text-color);
+    color: var(--textReverse-color);
+    padding: 8px 16px;
+    border-radius: 16px;
+}

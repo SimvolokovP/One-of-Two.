@@ -1,0 +1,22 @@
+.test-page__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.test-page__results {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .test-page__list {
+        flex-direction: column;
+    }
+
+    .option-block {
+        width: 100%;
+        height: 220px;
+    }
+}

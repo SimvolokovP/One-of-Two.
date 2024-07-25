@@ -1,0 +1,20 @@
+.progress-bar{
+    height: 5px;
+    background: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: var(--background-color);
+}

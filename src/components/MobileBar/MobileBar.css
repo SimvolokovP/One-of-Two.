@@ -1,0 +1,47 @@
+.mobile-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    bottom: 0;
+    box-shadow: 4px 4px 4px 4px rgba(135, 135, 135, 0.25);
+    display: none;
+    z-index: 50;
+    background-color: var(--background-color);
+}
+
+.mobile-bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-bar__link {
+    background-color: var(--textReverse-color);
+    color: var(--text-color);
+    width: 42px;
+    height: 42px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.mobile-bar__link.active {
+    background-color: var(--text-color);
+    color: var(--textReverse-color);
+    transition: all .3s ease-in-out;
+}
+
+.mobile-bar__link svg {
+    color: currentColor;
+}
+
+@media (max-width: 768px) {
+    .mobile-bar {
+        display: block;
+    }
+}

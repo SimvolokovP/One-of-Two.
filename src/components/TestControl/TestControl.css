@@ -1,0 +1,12 @@
+.test-control__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.test-control {
+    padding: 20px 0;
+}
